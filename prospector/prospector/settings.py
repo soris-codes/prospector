@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'prospects',
     'rest_framework',
+    'frontend',
 ]
 
 MIDDLEWARE = [
