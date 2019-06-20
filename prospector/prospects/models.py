@@ -6,4 +6,3 @@ class Prospect(models.Model):
   notes = models.TextField(blank=True)
   created_on = models.DateTimeField(auto_now_add=True)
 
-

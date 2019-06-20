@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'prospects',
-    'restframework',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'prospector.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.path.join(BASE_DIR, 'prospects'),
+        'NAME': 'prospects',
     }
 }
 
